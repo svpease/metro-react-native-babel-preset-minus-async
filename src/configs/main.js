@@ -124,7 +124,7 @@ const getPreset = (src, options) => {
   }
 
   if (isNull || src.indexOf("async") !== -1) {
-    /*
+    /* This was REMOVED:
     extraPlugins.push([
       require("@babel/plugin-proposal-async-generator-functions"),
     ]);
